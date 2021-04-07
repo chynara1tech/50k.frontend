@@ -1,0 +1,65 @@
+ /* обращения бывают следующих типов:
+           -теги p
+           -class .
+           -id #
+           -атрибуты [] */
+ .left {
+        background:yellow;
+        }
+
+    .right li {
+        font-size: 12px;
+        background: pink;
+        }
+.right {
+    border: 10px solid black;
+
+}
+.prime div,
+.prime p {
+    background: red;
+
+}
+
+[data-ismar="name"] {
+    background: pink;
+}
+
+/*urok 12 */
+
+.urok12 {
+    background-image: url(https://www.ixbt.com/img/n1/news/2019/5/3/chrome-73-mode-sombre-android_large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    /*margin-top: 120em;*/
+}
+
+.urok12_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border: 2px solid black;
+}
+.urok12_1 {
+    padding: 0;
+}
+/* px конкретное заданное число измерения которая не изменяется*/
+/* rem это относительная единица измерения которая базируется на html*/
+/* em это относительная единица измерения которая базируется на родительского блока*/
+/* % это относительная единица измерения которая базируется на ширине экрана либо блока к которому он задан при уменьшении браузера соизмерно уменьшается*/
+
+.urok12_1 ul li:nth-child(3) {
+    background: red;
+}
+
+.urok12_1 {
+    transition: .5s;
+}
+.urok12_1:hover {
+    background-color: brown;
+}

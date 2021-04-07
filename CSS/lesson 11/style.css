@@ -1,0 +1,26 @@
+ /* обращения бывают следующих типов:
+           -теги p
+           -class .
+           -id #
+           -атрибуты [] */
+ .left {
+        background:yellow;
+        }
+
+    li {
+        font-size: 12px;
+        background: pink;
+        }
+.right {
+    border: 10px solid black;
+
+}
+.prime div,
+.prime p {
+    background: red;
+
+}
+
+[data-ismar="name"] {
+    background: pink;
+}

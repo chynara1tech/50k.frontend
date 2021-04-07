@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.menu {
+    display: inline-block;
+    width: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.ul_li {
+    display: inline-block;
+    list-style: none;
+    
+    
+}
+
+.ul_li li {
+     float: left;
+     padding: 15px 20px 15px 20px;
+     font-size: 18px;
+     color: #828282;
+     float: inline-end;
+}
+
+hr {
+    border: 1px solid #828282;
+    font-size: 18px;
+}
+
+.name {
+    font-size: 47.3392px;
+    color: #070707;
+
+}
+
+.position {
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    
+
+}
+
+.language {
+    float: right;
+    font-size: 12px;
+    color: #828282;
+    writing-mode: vertical-rl;
+}
+
+.photo {
+    width: 1200px;
+    height: 400px
+}
+
+.about_me {
+    height: 506px;
+    background: #F6F6F6;
+}
+
+.text{
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.me {
+    padding: 25px 30px 30px;
+    font-size: 34px;
+    color: #070707;
+    font-weight: bold;
+}
+
+.skill {
+    font-weight: bolder;
+    font-size: 34px;
+    color: #070707;
+    padding: 20px 20px 20px;
+}
+
+.work {
+    font-size: 22px;
+    color: #070707;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+} 
+
+.star {
+    width: 20px;
+    height: 20px;
+}
+.row {
+    padding: 70px;
+}
+
+.portfolio {
+    height: 1900px;
+    background: #F6F6F6;
+}
+
+.my_portfolio {
+    padding: 70px;
+    font-size: 34px;
+    color: #070707;
+    font-weight: bolder;
+}
+
+.portf_photo, .reebok, .braun {
+    width: 1000px;
+    height: 400px
+
+}
+
+.portfolio, center, h3, u {
+    font-size: 18px;
+    padding: 15px 10px;
+}
+
+.btn {
+    border: 1px solid rgba(0, 0, 0, 0.56);      
+    padding: 4px 12px;      
+    -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #070707;
+    color: #F6F6F6;
+   }
+
+.context {
+    font-size: 34px;
+    font-weight: bolder;
+    color: #070707;
+    padding: 5px;
+}   
+
+.lnkdn, .inst, .bhn {
+    width: 100px;
+    height: 100px;
+    padding: 20px 20px;
+}
+
+.welcome {
+    font-size: 18px;
+    color: #070707;
+}
+
+.footer {
+    font-size: 14px;
+    color: #828282;
+}
+
+

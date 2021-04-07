@@ -1,0 +1,46 @@
+ /* обращения бывают следующих типов:
+           -теги p
+           -class .
+           -id #
+           -атрибуты [] */
+ * {
+     box-sizing: border-box;
+ }
+
+ body {
+     margin: 0;
+ }
+
+ .verhnee_menu {
+     background: #f7f7f7;
+     display: inline-block;
+     width: 100%;
+ }
+
+ .left, .ul_li li {
+     float: left;
+ }
+
+ .right {
+     float: right;
+ }
+
+ .ul_li {
+     list-style: none;
+     display: inline-block;
+     padding: 0;
+     margin: 0;
+ }
+
+ .ul_li li {
+     padding: 10px 15px;
+ }
+
+ .container {
+     width: 1200px;
+     margin: 0 auto;
+ }
+
+ p {
+     text-align: center;
+ }

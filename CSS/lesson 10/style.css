@@ -1,0 +1,13 @@
+ /* обращения бывают следующих типов:
+           -теги p
+           -class .
+           -id #
+           -атрибуты [] */
+ .left {
+        background:yellow;
+        }
+
+    li {
+        font-size: 12px;
+        background: pink;
+        }
