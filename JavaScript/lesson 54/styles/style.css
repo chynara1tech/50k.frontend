@@ -418,7 +418,7 @@ form.search-form.select{
 
 
 /*product style*/
-        .block_title{
+        .block_title {
             display: flex;
             justify-content: space-between;
             align-items: center;

@@ -195,13 +195,12 @@ select{
     font-family: Arial, Helvetica, sans-serif;
 }
 .linka:hover {
-    padding: 5px 10px;
+    padding: 10px 15px;;
     background:#79d1f6;
     border-radius: 25px;
     color:white;
-    transition: 0.5 linear;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-
 
 .dropdown_menu{
     background:white;
@@ -360,11 +359,11 @@ select{
     transform: translateY(4px);
 }
 .search-box input {
-border: none;
-background: transparent;
-width: 195px;
-padding: 10px;
-outline: none;
+    border: none;
+    background: transparent;
+    width: 195px;
+    padding: 10px;
+    outline: none;
 }
 form.search-form.select{
     display: flex;
@@ -679,6 +678,28 @@ form.search-form.select{
     font-weight: bold;
 }
 
+.bg_orange::before {
+    content: "";
+    position: absolute;
+    top: 24px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #fdc140;
+    border-right: 8px solid transparent;
+}
+
+.bg_green::before {
+    content: "";
+    position: absolute;
+    top: 24px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid  rgb(75, 202, 75);
+    border-right: 8px solid transparent;
+}
+
 .desc1 {
     display: block;
     position: relative;
@@ -777,7 +798,7 @@ form.search-form.select{
     background: #ffffffb5;
     width: 100%;
     height: 100%;
-    border:1px solid white;
+    border: 1px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
