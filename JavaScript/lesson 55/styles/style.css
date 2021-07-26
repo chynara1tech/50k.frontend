@@ -172,21 +172,34 @@ select{
    
 }
 
-.nijnee_menu .ul_li {
-    display: flex;
-    align-items:center;
-    height: 68px;
-    width: 500px;
+/*
+.home_menu {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #4b4c6c;
+    font-weight: 500;
+    transition: .1s linear;
 }
 
 .nijnee_menu .container {
     display: flex;
     justify-content: space-between;
-    height: 68px;
+    height: 58px;
     width: 1140px;
     align-items: center;
     position: relative;
 }
+
+*/
+
+.nijnee_menu .ul_li {
+    display: flex;
+    align-items:center;
+    height: 58px;
+    width: 500px;
+}
+
+
 
 .linka {
     color: #4c4b6c;
@@ -202,6 +215,10 @@ select{
     transition:cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
+.fa-chevron-down {
+    font-size: 8px;
+    padding-left: 7px;
+}
 .dropdown_menu{
     background:white;
     width: 100%;
@@ -350,8 +367,8 @@ select{
     background: #fff;
     border-radius: 25px;
     width: 300px;
-   padding-left: 10px;
-  margin-top: -4px;
+    padding-left: 10px;
+    margin-top: -4px;
 }
 .search-home-1 {
     
@@ -381,6 +398,7 @@ form.search-form.select{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 20px;
 }
 
 .fa-shopping-bag {
@@ -470,6 +488,11 @@ form.search-form.select{
     width: 85px;
     height: 85px;
     margin-right: 10px;
+}
+
+.bag__img img {
+    width: 85px;
+    height: 85px;
 }
 .bag__info {
     width: 180px;
@@ -803,6 +826,7 @@ form.search-form.select{
     justify-content: center;
     align-items: center;
     z-index: 0;
+    transition: 0.2s;
 }
 
 .desc_img1 {
