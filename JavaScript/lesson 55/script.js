@@ -152,3 +152,9 @@
 
  console.log(mb.kuzov);
  mb.model();
+
+ let click = document.getElementById("btn1");
+
+ click.addEventListener('click', () => {
+   alert('hi');
+ });
