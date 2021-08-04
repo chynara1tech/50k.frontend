@@ -133,4 +133,23 @@ new cardProduct (
 //   '.list_product'
 // ).render();
 
- 
+ // JSON
+
+ const Data = {
+     name: "Ismar",
+     age: 26,
+     parent: {
+        parent1: "Alex",
+        parent2: "Rose"
+     }
+ };
+
+ console.log(Data);
+ // console.log(JSON.parse(JSON.stringify(Data)));
+
+ const newObj = JSON.parse(JSON.stringify(Data));
+ newObj.parent.parent1 = "Ismar";
+  console.log(newObj);
+
+
+}());
