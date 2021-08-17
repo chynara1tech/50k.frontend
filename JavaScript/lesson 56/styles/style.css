@@ -206,9 +206,10 @@ select{
     text-decoration: none;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 15px;
 }
 .linka:hover {
-    padding: 10px 15px;;
+/* padding: 10px 15px;; */
     background:#79d1f6;
     border-radius: 25px;
     color:white;
@@ -392,6 +393,21 @@ form.search-form.select{
     border: none;
     font-size: 20px;
     padding-left: 50px;
+}
+
+.block_search {
+    position: relative;
+}
+
+.search_result {
+    position: absolute;
+    background-color: white;
+    border: 1px solid white;
+    width: 100%;
+}
+
+.search_result ul {
+    border: 1px solid rgb(143, 138, 138);
 }
 
 .shopcard {

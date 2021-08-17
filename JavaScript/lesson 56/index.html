@@ -211,15 +211,19 @@
                 <div class="right">
                     <div class="hover_menu">
                         <div class="search-box search-home-1">
-                            <form action="?search=#" method="GET" class="search-form select">
-                                <input type="text" placeholder="Search..." name="search">
-                                <button type="submit" > 
-                                    <a href="#" class="search-btn">
-                                        <i class="fas fa-search"></i>
-                                    </a>
-                                </button>
-
-                            </form>
+                            <div class="block_search">
+                                <form action="?search=#" method="GET" class="search-form select">
+                                    <input type="text" placeholder="Search..." name="search">
+                                    <button type="submit" > 
+                                        <a href="#" class="search-btn">
+                                            <i class="fas fa-search"></i>
+                                        </a>
+                                    </button>
+    
+                                </form>
+                                <div class="search_result"></div>
+                            </div>
+                            
                         </div>
                         <div class="shopcard">
                             <div class="shopcard__inner">
@@ -686,7 +690,7 @@
 
     <script src="./styles/bootstrap/bootstrap-5.0.0-beta2-dist/js/bootstrap.bundle.min.js"></script>
 
-    <script src="./add_to_card.js"></script>
+    <!-- <script src="./add_to_card.js"></script> --> 
     
         
         <script src="./script.js"></script>
