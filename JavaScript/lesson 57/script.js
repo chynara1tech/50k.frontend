@@ -4,6 +4,9 @@
     fetch("db.json")  //обратилась к файлу db.json
         .then(data => data.json())  // получили сам ответ, сконвертировали его в json
         .then(res => console.log(res)); // получаем его как результат и выводим
+    
+    axios.get("http://lesson57.com/")
+    .then(data => console.log(data.data));
 
 //     const inputSom = document.querySelector("#som"),
 //           inputUsd = document.querySelector("#usd");  

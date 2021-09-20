@@ -1,0 +1,11 @@
+{
+  "name": "lesson-57",
+  "version": "1.0.0",
+  "description": "",
+  "main": "add_to_card.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
