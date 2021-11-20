@@ -1,0 +1,31 @@
+{
+    "products": [
+        {
+            "tooltip": "New",
+            "color": "green",
+            "img": "/images/img61.jpg",
+            "title": "Заголовок первого товара",
+            "origin_price": 36,
+            "old_price": 42
+        },
+        {
+            "tooltip": "New",
+            "img": "/images/img50.jpg",
+            "color": "orange",
+            "title": "Animal Print Sweatshirt 1",
+            "origin_price": 36,
+            "old_price": 42  
+        },
+        {
+            "tooltip": "New",
+            "color": "green",
+            "img": "/images/img61.jpg",
+            "title": "Animal Print Sweatshirt 1",
+            "origin_price": 36,
+            "old_price": 42
+        }
+    ],
+    "requests": [
+        
+    ]
+}
